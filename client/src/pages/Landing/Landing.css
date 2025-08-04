@@ -1,0 +1,58 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    max-width: 1100px;
+    margin: 0rem auto -6rem;
+    height: 100vh;
+    margin-left: 20vh;
+}
+
+.intro-text h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro-text p {
+    margin-bottom: 1.7rem;
+}
+
+.tagline1 {
+    color: #1a2e35;
+}
+
+.tagline2 {
+    color: orange;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.red {
+    background-color: #ff775f;
+    margin-right: 1.5rem;
+}
+
+.blue {
+    background-color: #1a67f6;
+}
+
+.blue:hover {
+    background-color: #2955a7;
+    color: white;
+}
+
+.red:hover {
+    background-color: #d55d48;
+    color: white;
+}
